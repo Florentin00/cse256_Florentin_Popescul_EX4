@@ -4,6 +4,10 @@
 Created on Tue Nov 12 20:31:30 2024
 
 @author: macbookpro
+
+Cis 256 
+
+Florentin Popescul
 """
 
 #guess_the_word.py
@@ -14,11 +18,11 @@ import random
 words_list = ["python", "programming", "developer", "debug", "function"]
 
 def select_random_word():
-    """Select a random word from words_list"""
+    #Select a random word from words_list
     return random.choice(words_list)
 
 def display_word(word, guessed_letters):
-    """Display the word with guessed letters and underscores"""
+    #Display the word with guessed letters and underscores
     return ''.join(letter if letter in guessed_letters else '_' for letter in word)
 
 def play_game():
