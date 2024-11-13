@@ -4,9 +4,13 @@
 Created on Tue Nov 12 20:32:37 2024
 
 @author: macbookpro
+
+Cis 256 
+
+Florentin Popescul
 """
 
-# test_guess_the_word.py
+# test guess the word
 
 from guess_the_word import select_random_word, display_word
 
