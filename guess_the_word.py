@@ -10,7 +10,7 @@ Cis 256
 Florentin Popescul
 """
 
-#guess_the_word.py
+#guess the word main
 
 import random
 
